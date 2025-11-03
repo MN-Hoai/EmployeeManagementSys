@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.db
+
+# Build
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Others
+*.tmp
+*.bak
