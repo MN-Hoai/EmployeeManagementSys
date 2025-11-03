@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
+namespace Service.EmployeeMangement.Executes.Account
+=======
 namespace Service.EmployeeMangement.Executes
+>>>>>>> main
 {
     public class AccountModel
     {

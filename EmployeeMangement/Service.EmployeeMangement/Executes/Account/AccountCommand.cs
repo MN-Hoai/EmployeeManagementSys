@@ -2,7 +2,11 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
+using Service.EmployeeMangement.Executes.Account;
+=======
 using Service.EmployeeMangement.Executes;
+>>>>>>> main
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +14,11 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
+namespace Service.EmployeeMangement.Executes.Account
+=======
 namespace Service.EmployeeMangement.Executes
+>>>>>>> main
 {
     public class AccountCommand
     {
