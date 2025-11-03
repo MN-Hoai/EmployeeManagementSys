@@ -28,6 +28,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/ForBusiness/EmployeeManagementSys/EmployeeManagementSys/EmployeeMangement/EmployeeMangement/Views/Account/ApiSignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBcGlTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ForBusiness/EmployeeManagementSys/EmployeeManagementSys/EmployeeMangement/EmployeeMangement/Views/Account/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

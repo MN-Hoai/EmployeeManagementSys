@@ -76,7 +76,7 @@ namespace Service.EmployeeMangement.Executes
 
             // Paging
             int page = filter.Page <= 0 ? 1 : filter.Page;
-            const int PAGE_SIZE = 10;
+            const int PAGE_SIZE = 2;
 
             var results = await query
             .OrderByDescending(x => x.CreateDate)
