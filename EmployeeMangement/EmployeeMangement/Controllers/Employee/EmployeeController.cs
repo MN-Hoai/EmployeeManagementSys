@@ -1,12 +1,14 @@
 ﻿using EmployeeMangement.Controllers.Helper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Service.EmployeeMangement.Executes;
+using System.Security.Claims;
 using static Service.EmployeeMangement.Executes.EmployeeManyModel;
 
 namespace EmployeeMangement.Controllers
 {
-
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly EmployeeOne _employeeOne;
@@ -17,11 +19,28 @@ namespace EmployeeMangement.Controllers
             _employeeMany = employeeMany;
         }
 
-
         public IActionResult List()
         {
+            if (User.Identity.IsAuthenticated)
+            {
+                var claims = User.Identity as ClaimsIdentity;
+                ViewBag.Username = claims?.FindFirst(ClaimTypes.Name)?.Value;
+                ViewBag.AccountId = claims?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                ViewBag.Email = claims?.FindFirst(ClaimTypes.Email)?.Value;
+                ViewBag.Name = claims?.FindFirst(ClaimTypes.Name)?.Value;
+            }
+            else
+            {
+                ViewBag.Username = "";
+                ViewBag.AccountId = "";
+                ViewBag.Email = "";
+                ViewBag.Name = "";
+            }
+
             return View();
         }
+
+       
         public IActionResult Header()
         {
             return PartialView();
