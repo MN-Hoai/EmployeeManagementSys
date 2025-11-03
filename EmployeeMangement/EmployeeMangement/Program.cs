@@ -1,7 +1,11 @@
 ﻿using DBContext.EmployeeMangement;
 using Microsoft.EntityFrameworkCore;
 using Service.EmployeeMangement.Executes;
+<<<<<<< HEAD
 using Service.EmployeeMangement.Executes.Account;
+=======
+
+>>>>>>> main
 
 
 
@@ -84,10 +88,15 @@ builder.Services.AddScoped<DepartmentCommand>();
 builder.Services.AddScoped<JobPositionMany>();
 builder.Services.AddScoped<JobPositionOne>();
 builder.Services.AddScoped<JobPositionCommand>();
+<<<<<<< HEAD
 
 builder.Services.AddScoped<AccountCommand>();
 builder.Services.AddScoped<AccountModel>();
 
+=======
+builder.Services.AddScoped<AccountCommand>();
+builder.Services.AddScoped<AccountModel>();
+>>>>>>> main
 
 // ------------------ Build app ------------------
 var app = builder.Build();

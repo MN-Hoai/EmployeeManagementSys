@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Service.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+514bc49d8b4f41adff5ce37738b71840c225d303")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7943a7e0bc440a295eabe9bd88c45e9b84330fc")]
+>>>>>>> main
 [assembly: System.Reflection.AssemblyProductAttribute("Service.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Service.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
