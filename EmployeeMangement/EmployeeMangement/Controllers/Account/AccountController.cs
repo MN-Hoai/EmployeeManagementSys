@@ -1,6 +1,11 @@
 ﻿using CRUD_Product;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Service.EmployeeMangement.Executes.Account;
+=======
+using Service.EmployeeMangement.Executes;
+
+>>>>>>> main
 using System.Threading.Tasks;
 
 namespace CRUD_Product.Controllers
