@@ -14,11 +14,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBContext.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+514bc49d8b4f41adff5ce37738b71840c225d303")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7943a7e0bc440a295eabe9bd88c45e9b84330fc")]
 >>>>>>> main
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8eafed4f3d6fd5e2604345340f46af185a778d23")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("DBContext.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBContext.EmployeeMangement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

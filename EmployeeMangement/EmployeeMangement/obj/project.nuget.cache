@@ -193,5 +193,15 @@
     "C:\\Users\\nhath\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
 >>>>>>> main
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\ForBusiness\\EmployeeManagementSys\\EmployeeManagementSys\\EmployeeMangement\\EmployeeMangement\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\ForBusiness\\EmployeeManagementSys\\EmployeeManagementSys\\EmployeeMangement\\EmployeeMangement\\EmployeeMangement.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\ForBusiness\\EmployeeManagementSys\\EmployeeManagementSys\\EmployeeMangement\\EmployeeMangement\\EmployeeMangement.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
