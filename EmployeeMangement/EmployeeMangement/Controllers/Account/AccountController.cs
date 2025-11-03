@@ -1,18 +1,18 @@
 ﻿using CRUD_Product;
 using Microsoft.AspNetCore.Mvc;
-
+using Service.EmployeeMangement.Executes.Account;
 using System.Threading.Tasks;
 
 namespace CRUD_Product.Controllers
 {
     public class AccountController : Controller
     {
-        //private readonly AccountCommand _accountCommand;
+        private readonly AccountCommand _accountCommand;
 
-        //public AccountController(AccountCommand accountCommand)
-        //{
-        //    _accountCommand = accountCommand;
-        //}
+        public AccountController(AccountCommand accountCommand)
+        {
+            _accountCommand = accountCommand;
+        }
 
         // GET: /Account/SignIn
         [HttpGet]
@@ -21,26 +21,26 @@ namespace CRUD_Product.Controllers
             return View();
         }
 
-        //// POST: /Account/SignIn
-        //[HttpPost]
-        //public async Task<IActionResult> SignIn(AccountModel.SignInRequest request)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        ViewBag.Error = "Vui lòng nhập đầy đủ thông tin đăng nhập.";
-        //        return View(request);
-        //    }
+        // POST: /Account/SignIn
+        [HttpPost]
+        public async Task<IActionResult> SignIn(AccountModel.AccountRequest request)
+        {
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Error = "Vui lòng nhập đầy đủ thông tin đăng nhập.";
+                return View(request);
+            }
 
-        //    var result = await _accountCommand.CheckAccount(request);
+            var result = await _accountCommand.CheckAccount(request);
 
-        //    if (!result)
-        //    {
-        //        ViewBag.Error = "Tên đăng nhập hoặc mật khẩu không đúng.";
-        //        return View(request);
-        //    }
+            if (!result)
+            {
+                ViewBag.Error = "Tên đăng nhập hoặc mật khẩu không đúng.";
+                return View(request);
+            }
 
-        //    return RedirectToAction("List", "Product");
-        //}
+            return RedirectToAction("List", "Employee");
+        }
 
         //// GET: /Account/Logout
         //[HttpGet]

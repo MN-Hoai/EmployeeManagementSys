@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeMangement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+840225ab9561d07cdedd8f877e6b46d45d5abb08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+514bc49d8b4f41adff5ce37738b71840c225d303")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeMangement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeMangement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

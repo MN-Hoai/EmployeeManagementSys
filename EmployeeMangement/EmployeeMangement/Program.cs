@@ -1,5 +1,8 @@
 ﻿using DBContext.EmployeeMangement;
 using Microsoft.EntityFrameworkCore;
+using Service.EmployeeMangement.Executes;
+using Service.EmployeeMangement.Executes.Account;
+
 
 
 
@@ -70,7 +73,21 @@ builder.Services.AddDbContext<EmployeeManagementContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // ------------------ Custom Services ------------------
-//builder.Services.AddScoped<ProductCommand>();
+builder.Services.AddScoped<EmployeeMany>();
+builder.Services.AddScoped<EmployeeOne>();
+builder.Services.AddScoped<EmployeeCommand>();
+
+builder.Services.AddScoped<DepartmentMany>();
+builder.Services.AddScoped<DepartmentOne>();
+builder.Services.AddScoped<DepartmentCommand>();
+
+builder.Services.AddScoped<JobPositionMany>();
+builder.Services.AddScoped<JobPositionOne>();
+builder.Services.AddScoped<JobPositionCommand>();
+
+builder.Services.AddScoped<AccountCommand>();
+builder.Services.AddScoped<AccountModel>();
+
 
 // ------------------ Build app ------------------
 var app = builder.Build();
@@ -88,8 +105,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-app.UseAuthentication(); 
-app.UseAuthorization();  
+app.UseAuthentication();
+app.UseAuthorization();
 
 // ------------------ Default Route ------------------
 app.MapControllerRoute(

@@ -33,3 +33,21 @@ C:\Users\nhath\OneDrive - VLG\Pictures\EmployeeManagement-138340e5f82c4f7a977563
 C:\Users\nhath\OneDrive - VLG\Pictures\EmployeeManagement-138340e5f82c4f7a9775633f14584752310918cf\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.pdb
 C:\Users\nhath\OneDrive - VLG\Pictures\EmployeeManagement-138340e5f82c4f7a9775633f14584752310918cf\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.genruntimeconfig.cache
 C:\Users\nhath\OneDrive - VLG\Pictures\EmployeeManagement-138340e5f82c4f7a9775633f14584752310918cf\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\ref\Service.EmployeeMangement.dll
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\Service.EmployeeMangement.deps.json
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\Service.EmployeeMangement.runtimeconfig.json
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\Service.EmployeeMangement.dll
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\Service.EmployeeMangement.pdb
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\DBContext.EmployeeMangement.dll
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\bin\Debug\net8.0\DBContext.EmployeeMangement.pdb
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.csproj.AssemblyReference.cache
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.AssemblyInfoInputs.cache
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.AssemblyInfo.cs
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.csproj.CoreCompileInputs.cache
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.sourcelink.json
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service..9FF2E0EC.Up2Date
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.dll
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\refint\Service.EmployeeMangement.dll
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.pdb
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\Service.EmployeeMangement.genruntimeconfig.cache
+C:\D\ThucTapTotNghiep\EmployeeManagementSys\EmployeeMangement\Service.EmployeeMangement\obj\Debug\net8.0\ref\Service.EmployeeMangement.dll
