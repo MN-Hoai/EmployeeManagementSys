@@ -5,6 +5,7 @@ using Service.EmployeeMangement.Executes;
 
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.WebHost.ConfigureKestrel(options =>
@@ -83,6 +84,8 @@ builder.Services.AddScoped<DepartmentCommand>();
 builder.Services.AddScoped<JobPositionMany>();
 builder.Services.AddScoped<JobPositionOne>();
 builder.Services.AddScoped<JobPositionCommand>();
+builder.Services.AddScoped<AccountCommand>();
+builder.Services.AddScoped<AccountModel>();
 
 // ------------------ Build app ------------------
 var app = builder.Build();
